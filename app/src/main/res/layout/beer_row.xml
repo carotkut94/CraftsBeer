@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="110dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+      <ImageView
+          android:layout_width="80dp"
+          android:layout_height="80dp"
+          android:scaleType="centerCrop"
+          android:adjustViewBounds="true"
+          android:src="@drawable/beer"
+          android:id="@+id/beericon"
+          android:layout_centerVertical="true"
+          android:padding="8dp"
+          />
+        <LinearLayout
+            android:layout_toRightOf="@+id/beericon"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_toLeftOf="@+id/addToCartButton"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Tuborg Zero"
+                android:layout_margin="8dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:id="@+id/beerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat" />
+            <TextView
+                android:text="Style"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:textSize="16sp"
+                android:maxLines="1"
+                android:id="@+id/styleName"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat" />
+
+            <TextView
+                android:text="Alcohol content:100"
+                android:textSize="16sp"
+                android:id="@+id/aContent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/addToCartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_add_circle_black_24dp"
+            android:background="@android:color/transparent"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"/>
+        
+    </RelativeLayout>

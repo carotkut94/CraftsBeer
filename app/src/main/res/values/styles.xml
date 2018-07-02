@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.MaterialSearchViewStyle">
+        <!-- Background for the search bar -->
+        <item name="searchBackground">@android:color/white</item>
+        <!-- Change clear text icon -->
+        <item name="searchCloseIcon">@drawable/ic_close_black_24dp</item>
+        <!-- Change up icon -->
+        <item name="searchBackIcon">@drawable/ic_arrow_back_black_24dp</item>
+        <!-- Change text color for edit text. This will also be the color of the cursor -->
+        <item name="android:textColor">@color/colorPrimary</item>
+        <!-- Change hint text color for edit text -->
+        <item name="android:textColorHint">@color/hint_search_beers</item>
+        <!-- Hint for edit text -->
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+</resources>

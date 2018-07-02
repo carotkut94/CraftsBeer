@@ -1,0 +1,85 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:9189425476838885171",
+      "lastPropertyId": "3:3951716603051965703",
+      "name": "Cart",
+      "properties": [
+        {
+          "id": "1:5738396065955811719",
+          "name": "id"
+        },
+        {
+          "id": "2:6265574084136432061",
+          "name": "beerId"
+        },
+        {
+          "id": "3:3951716603051965703",
+          "name": "count"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:3059833063950903687",
+      "lastPropertyId": "7:2930562638300857332",
+      "name": "BeerResponse",
+      "properties": [
+        {
+          "id": "1:1442374683143566566",
+          "name": "abv"
+        },
+        {
+          "id": "2:4399652486879037038",
+          "name": "ounces"
+        },
+        {
+          "id": "3:8251825113215289432",
+          "name": "name"
+        },
+        {
+          "id": "4:2638614368446957168",
+          "name": "style"
+        },
+        {
+          "id": "5:8999005872231838153",
+          "name": "id"
+        },
+        {
+          "id": "6:2855774020915626612",
+          "name": "ibu"
+        },
+        {
+          "id": "7:2930562638300857332",
+          "name": "beerId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:3059833063950903687",
+  "lastIndexId": "1:7343758472086692088",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    6064541492017207705
+  ],
+  "retiredIndexUids": [
+    7343758472086692088
+  ],
+  "retiredPropertyUids": [
+    7979705433348142326,
+    8494204306731473705,
+    1029801309235987581,
+    4999751783368991932,
+    3236311449150519358,
+    3289085910320916633
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

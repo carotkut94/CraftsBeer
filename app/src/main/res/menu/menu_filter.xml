@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/default_listing"
+        android:title="@string/default_list"/>
+    <item android:id="@+id/alcohol"
+        android:title="@string/sort_by_alcohol_content" />
+    <item android:id="@+id/alcohol_asc"
+        android:title="@string/sort_by_alcohol_content_asc" />
+    <item android:id="@+id/lager"
+        android:title="@string/lager"/>
+    <item android:id="@+id/ipa"
+        android:title="@string/ipa"/>
+    <item android:id="@+id/ale"
+        android:title="@string/ale"/>
+    <item android:id="@+id/stout"
+        android:title="@string/stout"/>
+    <item android:id="@+id/bitterness"
+        android:title="@string/order_by_bitterness" />
+</menu>

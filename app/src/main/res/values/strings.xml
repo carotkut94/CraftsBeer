@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CraftsBeer</string>
+    <string name="search_hint">Search</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort_by_alcohol_content">Sort by alcohol content(desc)</string>
+    <string name="sort_by_alcohol_content_asc">Sort by alcohol content(asc)</string>
+    <string name="group_by_style">Group by style</string>
+    <string name="order_by_bitterness">Sort by bitterness</string>
+    <string name="lager">Lager</string>
+    <string name="ipa">IPA</string>
+    <string name="ale">Ale</string>
+    <string name="stout">Stout</string>
+    <string name="default_list">Default</string>
+    <string name="ohh_snap_nothing_is_in_cart">Ohh! snap, nothing is in cart</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+</resources>
